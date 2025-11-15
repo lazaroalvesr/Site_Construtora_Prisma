@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Prisma Construtora
 
-## Getting Started
+**Prisma Construtora** é uma plataforma digital elegante e funcional que apresenta os projetos residenciais, comerciais e corporativos da construtora com foco em **qualidade, inovação e transparência**. O site combina design moderno com usabilidade, permitindo que clientes explorem empreendimentos, conheçam a história da empresa e acompanhem um **blog técnico e inspirador** sobre arquitetura, construção sustentável e tendências do mercado imobiliário.
 
-First, run the development server:
+![App Screenshot](./public/img/site_captura.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> **Acesse o site:** [https://prismaconstrutora.com.br](https://prismaconstrutora.com.br)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Portfólio de empreendimentos** com filtros por tipo, localização e status
+- **Páginas detalhadas** de projetos com galeria de fotos, plantas, vídeos e tours 360°
+- **Blog corporativo** com artigos sobre construção civil, design de interiores e sustentabilidade
+- **Formulário de contato inteligente** com integração direta ao time comercial
+- **Chatbot de atendimento simples e eficiente** (veja abaixo)
+- **Design responsivo** otimizado para todos os dispositivos
+- **Performance máxima** com renderização no servidor (SSR) e lazy loading de imagens
+- **SEO avançado** em todas as páginas e posts do blog
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Chatbot de Atendimento (Simples & Inteligente)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Incluído no site, um **chatbot leve, rápido e totalmente integrado** ao design da Prisma:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Recursos do Bot:
+- **Assistente Virtual da Prisma** com saudação personalizada
+- **Navegação direta** para:
+  - Projetos (Residenciais, Sob Medida, Obras Públicas)
+  - Blog (`/blog`)
+  - Contato via **WhatsApp** e **e-mail**
+- **Redirecionamento com feedback**:
+  - Clica → "Redirecionando..." → chat fecha → abre destino
+- **Abre WhatsApp e e-mail em nova aba** (ou app)
+- **Opções rápidas** com botões interativos
+- **Animação de digitação** e scroll automático
+- **Design 100% alinhado** com as cores `#0D194F` e `#E97527`
+- **Totalmente responsivo** (mobile + desktop)
 
-## Deploy on Vercel
+> **Sem CEP, planos ou dados complexos** — apenas **respostas úteis e diretas**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tecnologias Utilizadas
+
+| Tecnologia         | Uso |
+|--------------------|-----|
+| **React.js**       | Interfaces dinâmicas e componentes reutilizáveis |
+| **Next.js**        | Renderização no servidor (SSR), rotas dinâmicas, SEO |
+| **Tailwind CSS**   | Estilização responsiva, rápida e com design system |
+| **Sanity CMS**     | Gerenciamento do **blog** (artigos, autores, categorias, imagens) |
+| **Portable Text**  | Renderização rica de textos com **drop caps**, blockquotes, código e links estilizados |
+
+---
+
+## Estrutura do Blog (com Sanity)
+
+O blog é totalmente gerenciado via **Sanity Studio**, permitindo que a equipe da Prisma publique:
+
+- Artigos técnicos sobre fundações, estruturas metálicas e concreto armado  
+- Dicas de decoração e acabamentos para apartamentos  
+- Estudos de caso de obras entregues  
+- Tendências em construção sustentável e certificações verdes  
+
+### Recursos visuais no blog:
+- **Drop cap estilizado** apenas no primeiro parágrafo  
+- **Blockquotes com ícone** para citações de arquitetos  
+- **Imagens com legendas** e sombras suaves  
+- **Código destacado** para especificações técnicas  
+- **Links com hover animado** e seta para externos  
+
+---
+
+## Authors
+
+- [@lazaroalvesr](https://github.com/lazaroalvesr)
+
+---
+
+## Links
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.lazaroalvesr.com/)  
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/l%C3%A1zaro-alves-r/)
+
+---
+
+> **Desenvolvido com Next.js + Sanity + Tailwind CSS**  
+> *Construindo o futuro, um tijolo (e um post) de cada vez.*
