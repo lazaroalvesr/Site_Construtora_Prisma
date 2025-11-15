@@ -4,7 +4,7 @@
 
 ![App Screenshot](./public/img/site_captura.png)
 
-> **Acesse o site:** [https://prismaconstrutora.com.br](https://prismaconstrutora.com.br)
+> **Acesse o site:** [https://site-construtora-prisma.vercel.app/](https://site-construtora-prisma.vercel.app/)
 
 ---
 
