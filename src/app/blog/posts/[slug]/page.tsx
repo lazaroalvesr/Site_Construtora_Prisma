@@ -7,11 +7,12 @@ import Link from "next/link";
 import { portableTextComponents } from "@/app/_components/portableTextComponents";
 
 interface Props {
-    params: { slug: string };
+    params: Promise<{ slug: string }>;
 }
 
 export default async function PostPage({ params }: Props) {
-    const post = await getSinglePost(params.slug);
+    const { slug } = await params;
+    const post = await getSinglePost(slug);
 
     if (!post) {
         return <p className="p-10 text-center">Post not found.</p>;
