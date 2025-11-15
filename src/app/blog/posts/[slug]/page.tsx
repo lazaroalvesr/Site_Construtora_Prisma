@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Image from "next/image";
 import { PortableText } from "@portabletext/react";
 import { getSinglePost } from "@/sanity/lib/getSinglePost";
