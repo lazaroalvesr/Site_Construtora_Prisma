@@ -38,9 +38,7 @@ Incluído no site, um **chatbot leve, rápido e totalmente integrado** ao design
 - **Animação de digitação** e scroll automático
 - **Design 100% alinhado** com as cores `#0D194F` e `#E97527`
 - **Totalmente responsivo** (mobile + desktop)
-
-> **Sem CEP, planos ou dados complexos** — apenas **respostas úteis e diretas**.
-
+- 
 ---
 
 ## Tecnologias Utilizadas
