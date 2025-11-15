@@ -67,8 +67,8 @@ export const Footer = () => {
 
     const servicosLinks = [
         { href: "/servicos/gerenciamento_de_obras", text: "Gerenciamento de Obras" },
-        { href: "/servicos/construcao_comercial", text: "Reforma e Ampliação" },
-        { href: "/servicos/reforma_ampliacao", text: "Construção comercial" },
+        { href: "/servicos/reforma_ampliacao", text: "Reforma e Ampliação" },
+        { href: "/servicos/construcao_comercial", text: "Construção comercial" },
     ];
 
     const empresaLinks = [
@@ -147,7 +147,7 @@ export const Footer = () => {
                         </div>
                         <div className="flex gap-4 -mt-4">
                             <Link
-                                href="https://www.facebook.com/p/Minas-Online-Provedor-de-internet-100057311154100/?locale=pt_BR"
+                                href=""
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-[45px] h-[45px] rounded-full bg-[#E97527] items-center flex justify-center">
@@ -159,7 +159,7 @@ export const Footer = () => {
                                 />
                             </Link>
                             <Link
-                                href="https://www.instagram.com/minasonlineinternet/"
+                                href=""
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-[45px] h-[45px] rounded-full bg-[#E97527] items-center flex justify-center">
